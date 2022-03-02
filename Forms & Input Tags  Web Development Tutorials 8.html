@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>forms</h1>
+    <!--Backend.php  is use for store values-->
+    <form action="backend.php">
+        <!--Backend.php  is use for store values-->
+
+        <!-- Label is used for when we add label and give anybox id and same id we give in lable so when we click on the textbox name we automatically jump into textbox  -->
+        <label for="name"> name</label> 
+        <input type="text" id="name"> <br>
+
+        <!-- Label is used for when we add label and give anybox id and same id we give in lable so when we click on the textbox name we automatically jump into textbox  -->
+
+        roll:<input type="text"> <br>
+
+        programmer:<input type="text"> <br>
+
+        date: <input type="date"> <br>
+
+        Numbers: <input type="number"> <br>
+
+        <!--If i want this checkbox checked by default so we use checked -->
+        are you eligible for driving <input type="checkbox" checked> <br> <!--If i want this checkbox checked by default so we use checked -->
+
+        Gender: Male <input type="radio" name="gender" id="gender"> 
+        Female <input type="radio" name="gender" id="gender">
+
+
+           <br> <textarea name="textarea" id="" cols="30" rows="10"></textarea> <br>
+
+        
+            <label for="Car">Car</label> 
+            <select name="car" id="car"> <br>
+                <option value="mercady">mercady</option>
+                <option value="bogati">bogati</option>
+                <option value="Unlimited Battery Laptop">Unlimited Battery Laptop</option>
+            </select><br> <br>
+
+        <input type="submit" value="submit">
+        <input type="reset" value="Reset Now">
+
+    </form>
+</body>
+
+</html>
