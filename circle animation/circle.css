@@ -1,0 +1,100 @@
+/* Rectangle & Circle Shapes */
+.rectangle-shape,
+.circle-shape {
+  content: '';
+  border: 0.20rem solid;
+  border-bottom-color: #ef6d9f;
+  border-right-color: #ef6d9f;
+  border-top-color: #ee8d6d;
+  border-left-color: #ee8d6d;
+  background-image: -moz-linear-gradient(top, #ee8d6d 0%, #ef6d9f 100%);
+  background-image: -webkit-linear-gradient(top, #ee8d6d 0%, #ef6d9f 100%);
+  background-image: linear-gradient(to bottom, #ee8d6d 0%, #ef6d9f 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$colorBtnPrimaryHover', endColorstr='$colorPrimary', GradientType=0);
+  background-size: 100% 0;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 0;
+  top: 40%;
+  margin: auto;
+}
+.rectangle-shape.small,
+.circle-shape.small{
+  border-width:0.1875rem;
+  width:4.5rem;
+  height:4.5rem;
+  animation: animationframesone 35s alternate infinite linear;
+} 
+.rectangle-shape.large,
+.circle-shape.large{ 
+  width:4.5rem;
+  height:4.5rem;
+  animation: animationframesthree 35s alternate infinite linear;
+} 
+.circle-shape.large{
+  left:0;
+  right:0;
+  bottom:15%;
+  opacity: .5;
+}
+.rectangle-shape.small{
+  left:0;
+  bottom:10%;
+}
+.rectangle-shape{
+  border-radius: 0.1875rem;
+}
+.circle-shape{
+  border-radius: 50%;
+}
+@keyframes animationframesone {
+  0% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+
+  20% {
+    transform: translate(4.5625rem, -0.0625rem) rotate(36deg);
+  }
+
+  40% {
+    transform: translate(8.8125rem, 4.5rem) rotate(72deg);
+  }
+
+  60% {
+    transform: translate(5.1875rem, 7.625rem) rotate(108deg);
+  }
+
+  80% {
+    transform: translate(-2.5rem, 4.5rem) rotate(144deg);
+  }
+
+  100% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+}
+@keyframes animationframesthree {
+  0% {
+    transform: translate(0, 0) rotate(0deg) scale(1.2);
+  }
+
+  20% {
+    transform: translate(-4.25rem, -6.25rem) rotate(70deg) scale(0.5);
+  }
+
+  40% {
+    transform: translate(7.1875rem, 3.4375rem) rotate(120deg) scale(1);
+  }
+
+  60% {
+    transform: translate(2.1875rem, 8.75rem) rotate(155deg) scale(1.2);
+  }
+
+  80% {
+    transform: translate(-2.1875rem, 5.625rem) rotate(180deg) scale(0.5);
+  }
+
+  100% {
+    transform: translate(0, 0) rotate(0deg) scale(1);
+  }
+}
+
