@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+<channel>
+  <title>ROR Sitemap for https://yashgadwal.github.io/Adarsh-Kushwah-Farm/</title>
+  <link>https://yashgadwal.github.io/Adarsh-Kushwah-Farm/</link>
+
+<item>
+     <link>https://yashgadwal.github.io/Adarsh-Kushwah-Farm/</link>
+     <title>Adarsh Farm</title>
+     <description>Adarsh Farm</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://yashgadwal.github.io/Adarsh-Kushwah-Farm/index.html</link>
+     <title>Adarsh Farm</title>
+     <description>Adarsh Farm</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://yashgadwal.github.io/Adarsh-Kushwah-Farm/vegetables.html</link>
+     <title>Vegetables</title>
+     <description>Vegetables</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://yashgadwal.github.io/Adarsh-Kushwah-Farm/contact.html</link>
+     <title>Contact Us</title>
+     <description>Contact Us</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://yashgadwal.github.io/Adarsh-Kushwah-Farm/farm.html</link>
+     <title>Farm</title>
+     <description>Farm</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+</channel>
+</rss>
+  
