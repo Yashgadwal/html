@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Input</title>
+    <style>
+        body {
+            color: white;
+            background-color: black;
+            text-align: center;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>This is Form Taturial</h1>
+    <form action="backend.php">
+        <div>
+            <!-- todo 1. This is how you enter text type -->
+            <br> Name : <input type="text" name="name" id="name"> 
+        </div>
+
+        <div>
+                        <!-- todo 2. This is how you enter email type -->
+            <br> Email: <input type="email" name="email" id="email">
+        </div>
+        <div>
+                        <!-- todo 3. This is how you enter date type -->
+            <br> Date:<input type="date" name="date" id="date">
+        </div>
+        <div>
+                        <!-- todo 4. This is how you enter NMUBER type -->
+                        <!-- fixme Only e character is allow number input type -->
+            <br> Number:<input type="number" name="number " id="number">
+        </div>
+        <div>
+                        <!-- todo 5. This is how you Radio  type -->
+            <br> Select Your Gender :
+            <br> Male <input type="radio" name="Gender" id="Gender">
+            <br> Female <input type="radio" name="Gender" id="Gender">
+        </div>
+
+        <div>
+            <br> Are You Eligible for Voting: <input type="checkbox" name="vote" id="vote">
+        </div>
+
+        <div>
+            <br><label for="text">Text Area:</label>
+        </div>
+        <div>
+            <br>
+            <textarea name="text" id="text" cols="30" rows="10" placeholder="Enter additional text here"></textarea>
+        </div>
+
+        <div>
+            <label for="country">Select your favourite Country</label>
+            <select name="country" id="country">
+                <option selelect value="ind">india</option>
+                <option value="pakistan">pakistan</option>
+            </select>
+        </div>
+
+        <br><input type="submit" value="submit">
+        <br>
+        <br><input type="reset" value="reset">
+    </form>
+</body>
+
+</html>
