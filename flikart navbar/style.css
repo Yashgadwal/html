@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.navbar{
+    background-color: #2874f0;
+    height: 60px;
+    /* padding-top: 10px; */
+}
+
+#flipkartlogo{
+    padding-top: 10px;
+    height: 23px;
+    position: relative;
+    left: 14rem;
+}
+
+#search{
+    font-size: 15px;
+    width: 26rem;
+    position: relative;
+    padding: 10px;
+    left:10rem;
+    /* border-radius: 5px; */
+}
+
+p{
+    font-size: 13px;
+    position: relative;
+    display: inline-block;
+    top: 8px;
+    left: 147px;
+    color: white;
+}
+
+p img{
+    height: 7px;
+}
+
+#plus{
+    color: #ffe500;
+    font-weight: bold;
+}
+
+#svg{
+    position: relative;
+    display: inline-block;
+    top: 8px;
+    left: 121px;
+    cursor: pointer;
+    height: 27px;
+}
+
+.login{
+    color: #2874f0;
+    background: white;
+    font-size: 22px;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    left: 26rem;
+    top: 3px;
+    padding: 1px;
+    padding-left: 18px;
+    padding-right: 18px;
+    font-family: 'Roboto';
+    font-weight: bolder;
+}
+
+.more{
+    font-size: 21px;
+    display: inline-block;
+    position: absolute;
+    left: 73rem;
+    top: 17px;
+    font-family: Roboto;
+    font-weight: bolder;
+}
+
+#svgg{
+    transform: rotate(271deg);
+}
+
+.svgk{
+    margin-top: 7px;
+    position: absolute;
+    /* display: inline-block; */
+    /* height: 50px; */
+    top: 10px;
+    left: 79rem;
+    /* bottom: -9px; */
+    /* border: 2px solid red; */
+}
+
+.cart{
+    display: inline-block;
+    position: relative;
+    left: 37rem;
+    font-size: 25px;
+    font-family: Roboto;
+    font-weight: bold;
+    top: 4px;
+}
