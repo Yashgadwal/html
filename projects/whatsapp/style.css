@@ -1,0 +1,518 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background:#111B21;
+    margin: 0%;
+    padding: 0%;
+    font-family: "Segoe UI", "Helvetica Neue", Helvetica, "Lucida Grande", Arial, Ubuntu, Cantarell, "Fira Sans", sans-serif;
+    height: 150vh;
+}
+
+#searcsnd{
+    display: inline;
+    position: fixed;
+    left: 30rem;
+    z-index: 10;
+    width: 61rem;
+    top: 41.5rem;
+    height: 2.5rem;
+    border-radius: 10px;
+    border: #2A3942;
+    padding-left: 10px;
+    background-color: #2A3942;
+    color: white;
+    font-family:"Segoe UI", "Helvetica Neue", Helvetica, "Lucida Grande", Arial, Ubuntu, Cantarell, "Fira Sans", sans-serif
+}
+
+.material-icons{
+    display: inline;
+    z-index: 2;
+    position: fixed;
+    left: 91.5rem;
+    top: 669px;
+}
+
+.docshare{
+    z-index: 2;
+    top: 669px;
+    display: inline;
+    position: relative;
+    position: fixed;
+    left: 410px;
+    /* top: 20px; */
+    color: #8797A0;
+}
+
+.smiley{
+    display: inline;
+    z-index: 2;
+    position: fixed;
+    left: 22rem;
+    top: 669px;
+    color: #8797A0;
+}
+
+.type{
+    position: absolute;
+    display: inline-block;
+    background-color: #202D32;
+    width: 74.9rem;
+    height: 4.3rem;
+    bottom: -24rem;
+    left: 20rem;
+    position: fixed;
+    color: white;
+    z-index: 10;
+}
+header{
+    margin-top:1rem ;
+}
+
+hr:not([size]) {
+    height: 5px;
+}
+nav{
+    background-color: #212C32;
+    height: 59px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    border-bottom: 4px solid  rgb(46,58,67);
+    width: 100%;
+    position: fixed;
+    overflow: hidden;
+    margin-top:-1rem ;
+    z-index: 2;
+}
+
+
+#logo{
+    height: 40px;
+    border-radius: 50%;
+    width: 45px;
+    position: relative;
+    left: 2rem;
+    cursor: pointer;
+}
+
+.status{
+    position: relative;
+    left: 6rem;
+}
+
+#msg{
+    position: relative;
+    left: 6rem;
+    top: 4px;
+}
+
+.dot{
+    position: relative;
+    left: 5rem;
+}
+
+.vl {
+    border-left: 2px solid rgb(46,58,67);
+    height: 45rem;
+    display: inline-block;
+    position: relative;
+    left: 20rem;
+    top: 0rem;
+    height: 45rem;
+    position: fixed;
+    z-index: 5;
+}
+
+.person{
+    height: 40px;
+    border-radius: 50%;
+    width: 45px;
+    position: relative;
+    left: 8rem;
+}
+
+.name{
+    color: white;
+    position: relative;
+    left: 8rem;
+    font-size: 18px;
+}
+
+#3dot{
+    position: relative;
+    left: 10rem;
+    border: 30px solid red;
+}
+
+#search{
+    margin-top: 4px;
+    display: inline-block;
+    position: absolute;
+    top:60px;
+    left: 4px;
+    background-color: #212C32;
+    width: 19rem;
+    border-radius: 11px;
+    height: 36px;
+    padding-left: 3rem;
+    font-family :"Segoe UI", "Helvetica Neue", Helvetica, "Lucida Grande", Arial, Ubuntu, Cantarell, "Fira Sans", sans-serif;
+    border:solid #212C32;
+}
+
+
+.change-my-color {
+    color: #8697A1;
+    z-index: 5;
+    position: relative;
+    position: fixed;
+    top: 68px;
+    left: 10px;
+}
+
+#h1{
+    position: relative;
+    top: 5rem;
+    color: red;
+    top: 83px;
+        height: 2px;
+    color: rgb(69, 81, 90);
+}
+
+.logo1{
+    height: 47px;
+    border-radius: 51%;
+    width: 52px;
+    position: relative;
+    left: 1rem;
+    top: 3rem;
+    cursor: pointer;
+}
+
+.first{
+    position: relative;
+    display: inline-block;
+    top: 3rem;
+    left: 2rem;
+    font-family: "Segoe UI", "Helvetica Neue", Helvetica, "Lucida Grande", Arial, Ubuntu, Cantarell, "Fira Sans", sans-serif;
+    color: white;
+    font-size: 20px;
+    cursor:pointer;
+}
+
+.second{
+    position: relative;
+    display: inline-block;
+    top: 3rem;
+    left: 2rem;
+    font-family: "Segoe UI", "Helvetica Neue", Helvetica, "Lucida Grande", Arial, Ubuntu, Cantarell, "Fira Sans", sans-serif;
+    color: white;
+    font-size: 20px;
+    cursor:pointer;
+}
+
+#h2{
+    position: relative;
+    top: 4rem;
+    color: red;
+        height: 2px;
+    color: rgb(69, 81, 90);
+}
+.third{
+    position: relative;
+    display: inline-block;
+    top: 3rem;
+    left: 2rem;
+    font-family: "Segoe UI", "Helvetica Neue", Helvetica, "Lucida Grande", Arial, Ubuntu, Cantarell, "Fira Sans", sans-serif;
+    color: white;
+    font-size: 20px;
+    cursor:pointer;
+    
+}
+
+#h3{
+    position: relative;
+    top: 4rem;
+    color: red;
+        height: 2px;
+    color: rgb(69, 81, 90);
+}
+
+.fourth{
+    position: relative;
+    display: inline-block;
+    top: 3rem;
+    left: 2rem;
+    font-family: "Segoe UI", "Helvetica Neue", Helvetica, "Lucida Grande", Arial, Ubuntu, Cantarell, "Fira Sans", sans-serif;
+    color: white;
+    font-size: 20px;
+    cursor:pointer;
+}
+
+#h4{
+    position: relative;
+    top: 4rem;
+    color: red;
+        height: 2px;
+    color: rgb(69, 81, 90);
+}
+
+.five{
+    position: relative;
+    display: inline-block;
+    top: 3rem;
+    left: 2rem;
+    font-family: "Segoe UI", "Helvetica Neue", Helvetica, "Lucida Grande", Arial, Ubuntu, Cantarell, "Fira Sans", sans-serif;
+    color: white;
+    font-size: 20px;
+    cursor:pointer;
+}
+
+#h5{
+    position: relative;
+    top: 4rem;
+    color: red;
+        height: 2px;
+    color: rgb(69, 81, 90);
+}
+
+.sixth{
+    position: relative;
+    display: inline-block;
+    top: 3rem;
+    left: 2rem;
+    font-family: "Segoe UI", "Helvetica Neue", Helvetica, "Lucida Grande", Arial, Ubuntu, Cantarell, "Fira Sans", sans-serif;
+    color: white;
+    font-size: 20px;
+    cursor:pointer;
+}
+.eight{
+    position: relative;
+    display: inline-block;
+    top: 3rem;
+    left: 2rem;
+    font-family: "Segoe UI", "Helvetica Neue", Helvetica, "Lucida Grande", Arial, Ubuntu, Cantarell, "Fira Sans", sans-serif;
+    color: white;
+    font-size: 20px;
+    cursor:pointer;
+}
+
+#h8{
+    position: relative;
+    top: 4rem;
+    color: red;
+    height: 2px;
+    color: rgb(69, 81, 90);
+}
+.seven{
+        position: relative;
+        display: inline-block;
+        top: 3rem;
+        left: 2rem;
+        font-family: "Segoe UI", "Helvetica Neue", Helvetica, "Lucida Grande", Arial, Ubuntu, Cantarell, "Fira Sans", sans-serif;
+        color: white;
+        font-size: 20px;
+        cursor:pointer;
+}
+
+#h9{
+    position: relative;
+    top: 4rem;
+    color: red;
+    height: 2px;
+    color: rgb(69, 81, 90);
+}
+
+.nine{
+    position: relative;
+    display: inline-block;
+    top: 3rem;
+    left: 2rem;
+    font-family: "Segoe UI", "Helvetica Neue", Helvetica, "Lucida Grande", Arial, Ubuntu, Cantarell, "Fira Sans", sans-serif;
+    color: white;
+    font-size: 20px;
+    cursor:pointer;
+}
+
+.ten{
+    position: relative;
+    display: inline-block;
+    top: 3rem;
+    left: 2rem;
+    font-family: "Segoe UI", "Helvetica Neue", Helvetica, "Lucida Grande", Arial, Ubuntu, Cantarell, "Fira Sans", sans-serif;
+    color: white;
+    font-size: 20px;
+    cursor:pointer;
+    /* overflow:hidden; */
+}
+
+#h10{
+    position: relative;
+    top: 4rem;
+    height: 2px;
+    color: rgb(69, 81, 90);
+}
+
+#h7{
+    position: relative;
+    top: 4rem;
+    height: 2px;
+    color: rgb(69, 81, 90);
+}
+
+#h6{
+    position: relative;
+    top: 4rem;
+    height: 4px;
+    color: rgb(69, 81, 90);
+}
+.line{
+    width: 20rem;
+
+}
+
+.main
+{
+    position: sticky;
+    display: inline-block;
+    left: 20rem;
+    bottom: 0rem;
+    height: 77px;
+    width: 75rem;
+    background-color: #202D32;
+    z-index: 1;
+}
+
+.send1{
+    color: white;
+    position: sticky;
+    bottom: 69rem;
+    left: 55rem;
+    background-color: #294551;
+    height: 2.5rem;
+    width: 5rem;
+    z-index: 4;
+    font-size: 25px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.biglogo{
+    position: fixed;
+    top: 10rem;
+    left: 46rem;
+}
+
+.con{
+    position: fixed;
+    top: 30rem;
+    left: 43rem;
+    color: #fff;
+    font-size: 2.2rem;
+}
+
+.conn{
+    position: fixed;
+    top: 34rem;
+    left: 33rem;
+    color: #d2d3cb;
+}
+
+.connn{
+    position: fixed;
+    top: 37rem;
+    left: 43rem;
+    color: #d2d3cb;
+
+}
+
+.navyg
+{
+    display: flex;
+    margin: 0%;
+    padding: 0%;
+    display: none;
+    height: 83px;
+    width: 100%;
+    background-color: #212C32;
+    color: white;
+    position: sticky;
+    bottom: 48rem;
+    flex-wrap: wrap;
+}
+
+/* Floating button  */
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
+
+@media only screen and (max-width: 1278px) /*and (min-width: 669px)  */
+{
+    *{
+        margin: 0%;
+        padding: 0%;
+    }
+    body{
+            margin: 0%;
+            padding: 0%;
+            background:#111B21;
+        }
+    .biglogo, .con, .conn, .connn, header,#search,.change-my-color,.vl,#search{
+        display: none;
+    }
+
+    .line{
+        width: 100%;
+    }
+    .navyg{
+        display: block;
+    }
+    .change-my-color{
+        display: none;
+    }
+    .navyg ul{
+        display:flex;
+        list-style: none;
+        margin-top: 10px;
+    }
+
+    .navyg ul li{
+        padding-left: 66px;    
+        padding-top: 6px;
+        width: 100%;
+        flex-wrap: wrap;
+        margin-left: -63px; 
+        font-weight: bold;
+}
+    .navyg p{
+        text-align: center;
+        padding-top: 4px;
+    }
+
+    #char{
+        border-bottom: 5px solid rgb(75, 204, 75);
+        color: #25d366;
+    }
+
+    html{
+        margin: 0;
+        padding: 0;
+    }
+}
