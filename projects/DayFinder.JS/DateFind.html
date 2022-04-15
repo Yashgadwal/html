@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I Will Guess Your Day Of Your birth</title>
+</head>
+<style>
+    body {
+        font-size: 3rem;
+        display: flex;
+        justify-content: center;
+        margin-top: 50vh;
+        font-weight: bold;
+        color:darkblue;
+        border: 5px solid rgb(0, 0, 0);
+        align-items: center;
+    }
+</style>
+
+<body>
+    <script>
+        let Year = prompt("Enter You Birth Year")//It will Take Year
+
+        let Month = prompt("Enter You Birth Month")//It will Take Month
+
+        let Day = prompt("Enter You Birth Day")//It will Take Day
+
+        let Ans = new Date(Year + ' ' + Month + ' ' + Day); //It will take date
+
+        let writee = document.write(Ans); //it will show in inner HTML
+
+
+    </script>
+</body>
+
+</html>
