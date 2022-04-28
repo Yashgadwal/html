@@ -1,0 +1,261 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background: rgb(0, 0, 0);
+    overflow: hidden;
+
+}
+
+.skill {
+    margin-top: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 3rem;
+    font-weight: bolder;
+    flex-wrap: wrap;
+}
+
+.line {
+    height: 2rem;
+    width: 30rem;
+    background-color: none;
+    border: 4px solid #00ffec;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.fill {
+    height: 2rem;
+    width: 25rem;
+    background-color: red;
+    border-radius: 20px;
+    transition: all 1s;
+    animation-name: filll, yg;
+    animation-iteration-count: 2, infinite;
+    animation-duration: 2s;
+}
+
+@keyframes yg {
+    0% {
+        background-color: Lime	;
+    }
+    
+    25% {
+        background-color: Aqua;
+    }
+
+    50% {
+        background-color: Coral;
+    }
+    
+    75% {
+        background-color: Navy;
+    }
+
+    100% {
+        background-color: hotpink;
+    }
+}
+
+.per {
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    font-weight: bold;
+    color: white;
+    float: right;
+    margin-top: 6px;
+}
+
+@keyframes filll {
+    from {
+        width: 0rem;
+    }
+
+    to {
+        width: 25rem;
+    }
+
+
+}
+
+.name {
+    display: flex;
+}
+
+.skill::before {
+    content: 'HTML';
+    color: white;
+}
+
+
+
+.skill1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 3rem;
+    flex-wrap: wrap;
+    font-weight: bolder;
+}
+
+.line1 {
+    height: 2rem;
+    width: 30rem;
+    background-color: none;
+    border: 4px solid #00ffec;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.fill1 {
+    height: 2rem;
+    width: 0rem;
+    background-color: rgb(3, 125, 255);
+    border-radius: 20px;
+    transition: all 1s;
+    animation-name: fillll,yg1;
+    animation-iteration-count: 2,infinite;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+@keyframes yg1 {
+        0% {
+            background-color: Aqua;
+        }
+    
+        25% {
+            background-color: Lime	;
+        }
+    
+        50% {
+            background-color: Navy;
+        }
+    
+        75% {
+            background-color: Coral;
+        }
+    
+        100% {
+            background-color: hotpink;
+        }
+    }
+.per1 {
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    font-weight: bold;
+    color: white;
+    float: right;
+    margin-top: 6px;
+}
+
+@keyframes fillll {
+    from {
+        width: 0rem;
+    }
+
+    to {
+        width: 20rem;
+    }
+}
+
+.name1 {
+    display: flex;
+}
+
+.skill1::before {
+    content: 'CSS';
+    color: white;
+
+}
+
+.skill11 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 3rem;
+    font-weight: bolder;
+    flex-wrap: wrap;
+}
+
+.line11 {
+    height: 2rem;
+    width: 30rem;
+    background-color: none;
+    border: 4px solid #00ffec;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.fill11 {
+    height: 2rem;
+    width: 0rem;
+    background-color: orangered;
+    border-radius: 20px;
+    transition: all 1s;
+    animation-name: filllll,yg2;
+    animation-iteration-count: 2,infinite;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+@keyframes yg2 {
+    0% {
+        background-color: red;
+    }
+
+    25% {
+        background-color: Navy;
+    }
+    
+    50% {
+        background-color: Lime	;
+    }
+
+    75% {
+        background-color: hotpink;
+    }
+    
+    100% {
+        background-color: Coral;
+    }
+}
+
+.per11 {
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    font-weight: bold;
+    color: white;
+    float: right;
+    margin-top: 6px;
+}
+
+@keyframes filllll {
+    from {
+        width: 0rem;
+    }
+
+    to {
+        width: 14rem;
+    }
+}
+
+.name11 {
+    display: flex;
+}
+
+.skill11::before {
+    content: 'JavaScript';
+    color: white;
+
+}
+
+.mt {
+    margin-bottom: 2rem;
+}
